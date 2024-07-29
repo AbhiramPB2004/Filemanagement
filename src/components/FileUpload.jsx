@@ -6,7 +6,7 @@ function FileUpload() {
     const [file, setFile] = useState(null);
     const [filename, setFilename] = useState('Choose File');
     const [uploadedFile, setUploadedFile] = useState({});
-
+    
     const uploadFile = async (e) => {
         e.preventDefault();
         const formData = new FormData();
